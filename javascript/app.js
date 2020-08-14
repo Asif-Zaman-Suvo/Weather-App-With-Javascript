@@ -27,7 +27,7 @@ weather.getWeather().then(data=> {
 });
 
 
-document.getElementById('w-change-btn').addEventListener('click', function(){
+document.getElementById('w-change-btn').addEventListener('click', ()=>{
     const city=document.getElementById('city').value;
 
     if(city===''){
@@ -54,4 +54,4 @@ document.getElementById('w-change-btn').addEventListener('click', function(){
         
     }
 
-})
+});
