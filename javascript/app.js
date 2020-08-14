@@ -4,7 +4,7 @@ const ui=new UI;
 
 
 async function getCity(){
-    const city=await fetch("https://ipapi.co/json");
+    const city=await fetch(`https://ipapi.co/json`);
     const data=await city.json();
 
     return data;
